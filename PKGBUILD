@@ -57,6 +57,7 @@ depends=(${ros_depends[@]}
 
 # Tarball version (faster download)
 _dir="perception_pcl-1d1e1a05d97cdbf93e67c153f1100fc14c26e31c/pcl_ros"
+#Patched with commit tarball
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-perception/perception_pcl/archive/1d1e1a0.tar.gz"
 )
 sha256sums=('ff55d31fa88d2e7087f1457996250696ce4011eacc06684ac5e07609e0fa0324')
